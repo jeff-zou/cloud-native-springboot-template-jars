@@ -1,1 +1,1 @@
-# cloud-native-springboot-template-parent
+# cloud-native-springboot-template-jars
