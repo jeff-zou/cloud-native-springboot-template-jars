@@ -6,8 +6,8 @@
 
     <groupId>io.github.jeff-zou</groupId>
     <artifactId>springboot-on-cloud-native-template-jars</artifactId>
-    <version>2.6.6.1</version>
-    <packaging>jar</packaging>
+    <version>2.6.6.2</version>
+    <packaging>pom</packaging>
 
     <scm>
         <url>https://github.com/jeff-zou/springboot-on-cloud-native-template-jars</url>
