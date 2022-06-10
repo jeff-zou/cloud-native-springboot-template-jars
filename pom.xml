@@ -6,7 +6,7 @@
 
     <groupId>io.github.jeff-zou</groupId>
     <artifactId>springboot-on-cloud-native-template-jars</artifactId>
-    <version>2.6.6.2</version>
+    <version>2.6.6.3</version>
     <packaging>pom</packaging>
 
     <scm>
@@ -156,6 +156,12 @@
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
             <version>2.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.75.Final</version>
         </dependency>
     </dependencies>
 
