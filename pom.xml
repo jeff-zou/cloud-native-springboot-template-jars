@@ -6,7 +6,7 @@
 
     <groupId>io.github.jeff-zou</groupId>
     <artifactId>springboot-on-cloud-native-template-jars</artifactId>
-    <version>2.6.6.3</version>
+    <version>2.6.6.4</version>
     <packaging>pom</packaging>
 
     <scm>
@@ -52,7 +52,9 @@
         <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
         <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
         <maven-deploy-plugin.version>3.0.0-M2</maven-deploy-plugin.version>
-        <docker.repostory>*</docker.repostory>
+        <docker.repostory>xsjop-harbor.seasungame.com</docker.repostory>
+        <kafka.version>2.4.1</kafka.version>
+        <netty.version>4.1.75.Final</netty.version>
     </properties>
 
 
@@ -135,12 +137,6 @@
         </dependency>
 
         <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>3.8.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>io.kubernetes</groupId>
             <artifactId>client-java</artifactId>
             <version>12.0.2</version>
@@ -155,13 +151,13 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>kafka-clients</artifactId>
-            <version>2.4.1</version>
+            <version>${kafka.version}</version>
         </dependency>
 
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>4.1.75.Final</version>
+            <version>${netty.version}</version>
         </dependency>
     </dependencies>
 
