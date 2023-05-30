@@ -257,14 +257,14 @@
                         <version>${maven-gpg-plugin.version}</version>
                         <executions>
                             <execution>
-                                <id>6B31AAB0</id>
+                                <id>ossrh</id>
                                 <phase>verify</phase>
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
                                 <configuration>
-                                    <keyname>FB655E747494029E</keyname>
-                                    <passphraseServerId>6B31AAB0</passphraseServerId>
+                                    <keyname>D8569E743AC67440</keyname>
+                                    <passphraseServerId>D8569E743AC67440</passphraseServerId>
                                 </configuration>
                             </execution>
                         </executions>
@@ -275,7 +275,7 @@
                         <version>${nexus-staging-maven-plugin.version}</version>
                         <extensions>true</extensions>
                         <configuration>
-                            <serverId>sonatype-release</serverId>
+                            <serverId>ossrh</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
